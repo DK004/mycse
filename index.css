@@ -41,6 +41,7 @@ color: white;
 
 
 .img{
+     transition: 0.3s ease-in-out;
     width: 100%;
 }
 
@@ -57,4 +58,10 @@ color: white;
 
 .img a{
     text-decoration: none ;
+}
+
+
+.img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
 }
