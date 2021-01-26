@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+    box-sizing: border-box;
+}
+
+.navbar{
+    background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+color: white;
+}
+
+#main{
+    margin: 25px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+.fifth, .sixth{
+    display: flex;
+    flex-direction: column;
+    width: 27rem;
+}
+.animate__animated.animate__flipInX {
+    --animate-duration: 1.5s;
+  }
+
+
+
+.img{
+    width: 100%;
+}
+
+.img img{
+    width: 100%;
+}
+
+.img p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px;
+    color: darkslateblue;    
+}
+
+.img a{
+    text-decoration: none ;
+}
